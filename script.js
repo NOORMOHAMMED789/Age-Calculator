@@ -27,3 +27,5 @@ buttonEl.addEventListener("click", function (e) {
   yearEl.innerHTML = `Your current age is ${useryear} year ${usermonth} month ${userdate} days ${hrs} hours ${min} minutes ${sec} seconds`;
   document.body.appendChild(yearEl);
 });
+
+let sampleEl = document.getElementById("button")
