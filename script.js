@@ -12,7 +12,6 @@ ageEl.addEventListener("change", function (e) {
 
 buttonEl.addEventListener("click", function (e) {
   e.preventDefault();
-  //!to prevent the default submission to the page
 
   let useryear = new Date().getFullYear() - Year;
   if (Year < useryear) alert("user birth year should be below current year");
